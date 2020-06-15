@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  height: 70px;
+}
+
+.hyperlink {
+  padding: 20px;
+}
+
+.przycisk-ogloszenie {
+  position: relative;
+  background: #ff8300;
+  border-radius: 3px; /* Zakrąglone rogi*/
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  margin-left: 15px;
+}
+
+.niebieskie-tlo {
+  background-color: #0098d0;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.przycisk-szukaj {
+  background: #49aeef;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 13px;
+  border: none;
+}
+
+.kategorie {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.kategorie > a {
+  margin-left: 12px;
+}
+
+.kategorie > a:hover {
+  background-color: #0098d0;
+  color: white;
+  text-decoration: none;
+}
+
+.separator {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 23px;
+  color: #5b5b5b;
+}
+
+.przedmiot {
+  width: 90%;
+}
